@@ -82,6 +82,7 @@ class Value:
         return out
     
     def backward(self):
+        # topograpical sort and order
         topo = []
         visited = set()
 
